@@ -60,4 +60,9 @@ AlphaAnimation 在xml中对应的是 <alpha>标签，可以实现隐藏效果；
 
 
 
+效果：
+gif图片有点卡；
 
+![](./img/trans.gif)
+---
+![](./img/setanim.gif)
