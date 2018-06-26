@@ -22,5 +22,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        rotate_btn.setOnClickListener {
+            val intent = Intent(this, RotateActivity::class.java)
+            startActivity(intent)
+        }
+
+        set_btn.setOnClickListener {
+            val intent = Intent(this, SetAnimationActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

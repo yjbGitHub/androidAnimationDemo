@@ -19,6 +19,8 @@
 
         <activity android:name=".TranslateActivity"/>
         <activity android:name=".ScaleActivity" />
+        <activity android:name=".RotateActivity" />
+        <activity android:name=".SetAnimationActivity" />
     </application>
 
 </manifest>

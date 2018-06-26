@@ -3,6 +3,7 @@ package com.puppy.android_animation_demo
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import kotlinx.android.synthetic.main.scale.*
@@ -17,7 +18,9 @@ class ScaleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.scale)
 
-        val Xanimation =  AnimationUtils.loadAnimation(this, R.anim.x_scale)
+
+
+        val Xanimation =  AnimationUtils.loadAnimation(this, R.anim.scale_x)
         Xanimation.setAnimationListener(object : Animation.AnimationListener{
             override fun onAnimationRepeat(p0: Animation?) {}
 
@@ -35,14 +38,14 @@ class ScaleActivity : AppCompatActivity() {
 
 
 
-        val Yanimation = AnimationUtils.loadAnimation(this, R.anim.y_scale)
+        val Yanimation = AnimationUtils.loadAnimation(this, R.anim.scale_y)
 
         y_scale.setOnClickListener {
             scale_activity_btn.startAnimation(Yanimation)
         }
 
 
-        val XYanimation = AnimationUtils.loadAnimation(this, R.anim.xy_scale)
+        val XYanimation = AnimationUtils.loadAnimation(this, R.anim.scale_xy)
         xy_scale.setOnClickListener {
             scale_activity_btn.startAnimation(XYanimation)
         }

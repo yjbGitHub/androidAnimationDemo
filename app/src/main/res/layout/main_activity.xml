@@ -15,14 +15,30 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
 
-
+    <Button
+        android:id="@+id/scale_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scale"
+        app:layout_constraintTop_toBottomOf="@id/translate_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <Button
-            android:id="@+id/scale_btn"
+            android:id="@+id/rotate_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="scale"
-            app:layout_constraintTop_toBottomOf="@id/translate_btn"
+            android:text="rotate"
+            app:layout_constraintTop_toBottomOf="@id/scale_btn"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+            android:id="@+id/set_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set"
+            app:layout_constraintTop_toBottomOf="@id/rotate_btn"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
 
