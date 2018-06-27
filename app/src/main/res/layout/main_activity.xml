@@ -43,4 +43,13 @@
             app:layout_constraintRight_toRightOf="parent"/>
 
 
+
+    <Button
+            android:id="@+id/property_anim_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="property_anim"
+            app:layout_constraintTop_toBottomOf="@id/set_btn"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
 </android.support.constraint.ConstraintLayout>
