@@ -16,12 +16,54 @@
             app:layout_constraintBottom_toBottomOf="parent"/>
 
 
-    <TextView android:id="@+id/topTV"
+    <TextView android:id="@+id/transTV"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="top"
+              android:text="translation"
               android:layout_margin="20dp"
               app:layout_constraintLeft_toLeftOf="parent"
               app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView android:id="@+id/rotateTV"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="rotation"
+              android:layout_margin="20dp"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView android:id="@+id/alphaTV"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="alpha"
+              android:layout_margin="20dp"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView android:id="@+id/scaleTV"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="scale"
+              android:layout_margin="20dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView android:id="@+id/animsetATV"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="anim_setA"
+              android:layout_margin="20dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView android:id="@+id/animsetBTV"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="anim_setB"
+              android:layout_margin="20dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
